@@ -8,6 +8,12 @@
 import sys,os,signal
 from subprocess import check_output
 
+# Color codes
+redStart = "\033[91m"
+redEnd = "\033[00m\u001b[0m"
+greenStart = "\033[92m"
+greenEnd = "\033[01m\u001b[0m"
+
 # Catches ctrl+c and exits cleanly.
 def signal_handler(sig, frame):
     print("\n\nProgram exited. Welcome to linux!")
