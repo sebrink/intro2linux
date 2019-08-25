@@ -12,6 +12,23 @@ from subprocess import check_output
 def signal_handler(sig, frame):
     print("\n\nProgram exited. Welcome to linux!")
     sys.exit(0)
+def tux():
+    print("\n         _nnnn_")
+    print("        dGGGGMMb     ,\"\"\"\"\"\"\"\"\"\"\"\"\"\".")
+    print("       @p~qp~~qMb    | Linux Rules! |")
+    print("       M|@||@) M|   _;..............\'")
+    print("       @,----.JM| -\'")
+    print("      JS^\__/  qKL")
+    print("     dZP        qKRb")
+    print("    dZP          qKKb")
+    print("   fZP            SMMb")
+    print("   HZM            MMMM")
+    print("   FqM            MMMM")
+    print(" __| \".        |\dS\"qML")
+    print(" |    `.       | `\' \Zq")
+    print("_)      \.___.,|     .\'")
+    print("\____   )MMMMMM|   .\'")
+    print("     `-'       `--' hjm")
 
 def ls():
     print("\nTo exit at any point, type \"ctrl+c\".\n")
@@ -105,6 +122,7 @@ def done():
 def main():
     # Used to catch ctrl+c
     signal.signal(signal.SIGINT, signal_handler)
+    tux()
     ls()
     lsla()
     pwd_cd()
