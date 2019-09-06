@@ -8,4 +8,5 @@
 - `python intro.py`
 
 ## Resources
-- //TODO
+- http://overthewire.org/wargames/bandit/
+- https://linuxjourney.com/
